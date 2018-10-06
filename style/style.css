@@ -14,7 +14,6 @@ nav {
     max-width: 1440px;
     margin: 30px auto;
     text-align: right;
-
 }
 
 nav a {
@@ -49,8 +48,6 @@ nav a.reservation:hover {
     transition: .4s;
 }
 
-
-
 /*Header*/
 header {
     height: 40vh;
@@ -64,5 +61,55 @@ header h1 {
     text-align: center;
     line-height: 40vh;
     background-color: rgba(0, 0, 0, 50%);
+}
 
+main {
+    max-width: 1440px;
+    margin: 5vh auto;
+    font-size: 0;
+}
+
+main p.description {
+    font-size: 2.2rem;
+    text-align: center;
+    margin: 0 30px 50px 30px;
+    line-height: 180%;
+}
+
+main section.features {
+    background-color: beige;
+    padding-bottom: 30px;
+}
+
+main div.feature {
+    display: inline-block;
+    width: 33.33%;
+}
+
+main div.image {
+    height: 200px;
+    background-color: royalblue;
+    margin: 20px 30px;
+}
+
+main div.image:hover {
+    background-color: aqua;
+}
+
+main h2 {
+    font-size: 2rem;
+    text-align: center;
+    color: #222;
+}
+
+/*Footer*/
+footer {
+    background-color: #000;
+}
+
+footer p {
+    color: white;
+    text-align: center;
+    padding: 2rem 0;
+    font-size: 2rem;
 }
