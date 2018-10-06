@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    /*    box-sizing: border-box*/
+}
+
+html {
+    font-size: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*Nawigacja*/
+nav {
+    max-width: 1440px;
+    margin: 30px auto;
+    text-align: right;
+
+}
+
+nav a {
+    display: inline-block;
+    font-size: 1.8rem;
+    font-family: arial;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #555;
+    padding: 10px;
+    margin: 0 20px;
+}
+
+nav a.reservation {
+    font-size: 2.2rem;
+    border: 2px solid #555;
+    padding: 10px 30px;
+    letter-spacing: 1px;
+    margin-right: 50px;
+    margin-left: 80px;
+}
+
+nav a:hover {
+    border-bottom: 2px solid #555;
+    color: black;
+}
+
+nav a.reservation:hover {
+    background-color: royalblue;
+    color: #eee;
+    border-color: royalblue;
+    transition: .4s;
+}
+
+
+
+/*Header*/
+header {
+    height: 40vh;
+    background-image: url('/img/auto2.jpg');
+    background-size: cover;
+}
+
+header h1 {
+    font-size: 6rem;
+    color: white;
+    text-align: center;
+    line-height: 40vh;
+    background-color: rgba(0, 0, 0, 50%);
+
+}
